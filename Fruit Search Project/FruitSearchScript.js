@@ -8,7 +8,7 @@ function search(str) {
 	const val = str.toLowerCase();
 
 	for(i = 0; i < fruit.length; i++){
-		if(fruit[i].toLocaleLowerCase().indexOf(val) > -1){
+		if(fruit[i].toLowerCase().indexOf(val) > -1){
 			results.push(fruit[i]);
 		}
 	}
